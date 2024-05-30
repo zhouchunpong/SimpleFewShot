@@ -50,21 +50,21 @@ python train_vit.py --gpu 0 --dataset FC100 --exp pre-train --rand_aug --repeat_
 #### Train and evaluate SimpleFSL++
 * miniImageNet
 ```
-python train_vit_sp.py --gpu 0 --dataset miniImageNet --exp SimpleFSL --init checkpoint/miniImageNet/visformer-t/pre-train/checkpoint_epoch_800.pth --shot 1
+python train_FSL.py --gpu 0 --dataset miniImageNet --exp SimpleFSL --init checkpoint/miniImageNet/visformer-t/pre-train/checkpoint_epoch_800.pth --shot 1
 ```
 
 * tieredImageNet
 ```
-1-shot: python train_vit_sp.py --gpu 0 --dataset tieredImageNet --exp SimpleFSL  --rand_aug --train_episodes 600 --init checkpoint/tieredImageNet/visformer-t/pre-train/checkpoint_epoch_300.pth --shot 1
+1-shot: python train_FSL.py --gpu 0 --dataset tieredImageNet --exp SimpleFSL  --rand_aug --train_episodes 600 --init checkpoint/tieredImageNet/visformer-t/pre-train/checkpoint_epoch_300.pth --shot 1
 ```
 
 * CIFAR-FS
 ```
-1-shot: python train_vit_sp.py --gpu 0 --dataset CIFAR-FS --exp SimpleFSL --init checkpoint/CIFAR-FS/visformer-t/pre-train/checkpoint_epoch_800.pth --shot 1
+1-shot: python train_FSL.py --gpu 0 --dataset CIFAR-FS --exp SimpleFSL --init checkpoint/CIFAR-FS/visformer-t/pre-train/checkpoint_epoch_800.pth --shot 1
 ```
 * FC100
 ```
-python train_vit_sp.py --gpu 0 --dataset FC100 --exp SimpleFSL --init checkpoint/FC100/visformer-t/pre-train/checkpoint_epoch_800.pth --shot 1
+python train_FSL.py --gpu 0 --dataset FC100 --exp SimpleFSL --init checkpoint/FC100/visformer-t/pre-train/checkpoint_epoch_800.pth --shot 1
 ```
 If you want train and evaluate SimpleFSL, just set KD = 0.
 
