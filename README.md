@@ -74,13 +74,16 @@ If you want train and evaluate SimpleFSL, just set KD = 0.
 ## Citation
 If you find our code useful, please consider citing our work:
 
-Zhou C, Wang H, Yuan X, et al. Less is More: A Closer Look at Multi-Modal Few-Shot Learning[J]. arXiv preprint arXiv:2401.05010, 2024.
+Zhou C, Yu Z, Yuan X, et al. Less is more: A closer look at semantic-based few-shot learning[J]. Information Fusion, 2025, 114: 102672.
 ```
-@article{zhou2024less,
-  title={Less is More: A Closer Look at Multi-Modal Few-Shot Learning},
-  author={Zhou, Chunpeng and Wang, Haishuai and Yuan, Xilu and Yu, Zhi and Bu, Jiajun},
-  journal={arXiv preprint arXiv:2401.05010},
-  year={2024}
+@article{zhou2025less,
+  title={Less is more: A closer look at semantic-based few-shot learning},
+  author={Zhou, Chunpeng and Yu, Zhi and Yuan, Xilu and Zhou, Sheng and Bu, Jiajun and Wang, Haishuai},
+  journal={Information Fusion},
+  volume={114},
+  pages={102672},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
