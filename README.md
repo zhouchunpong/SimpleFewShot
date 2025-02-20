@@ -1,6 +1,6 @@
 # Simple Baseline of Semantic-based Few-Shot Learning
 
-This repo contains the reference source code for the paper [Less is More: A Closer Look at Semantic-based Few-Shot Learning](https://arxiv.org/abs/2401.05010)
+This repo contains the reference source code for the paper [Less is More: A Closer Look at Semantic-based Few-Shot Learning](https://doi.org/10.1016/j.inffus.2024.102672)
 
 
 ![1716991886685](image/README/1716991886685.png)
